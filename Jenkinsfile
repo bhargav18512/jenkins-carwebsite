@@ -6,7 +6,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/<your-username>/carwebsite.git'
+                url: 'https://github.com/bhargav18512/jenkins-carwebsite.git'
             }
         }
  
