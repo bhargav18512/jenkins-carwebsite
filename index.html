@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Cars</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { background-color: #f4f4f4; }
+        header { background: #111; color: white; padding: 20px; text-align: center; }
+        nav { background: #222; padding: 15px; text-align: center; }
+        nav a { color: white; text-decoration: none; margin: 15px; font-weight: bold; }
+        .hero {
+            background: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1200') center/cover;
+            height: 500px; color: white; display: flex; justify-content: center;
+            align-items: center; flex-direction: column; text-shadow: 2px 2px 5px black;
+        }
+        .hero h1 { font-size: 50px; }
+        .hero p { font-size: 20px; margin-top: 10px; }
+        .cars { display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; padding: 40px; }
+        .card {
+            background: white; width: 300px; border-radius: 10px; overflow: hidden;
+            box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+        }
+        .card img { width: 100%; height: 200px; object-fit: cover; }
+        .card-content { padding: 15px; }
+        footer { background: #111; color: white; text-align: center; padding: 20px; margin-top: 30px; }
+        .btn {
+            display: inline-block; background: #e63946; color: white; padding: 10px 20px;
+            margin-top: 15px; text-decoration: none; border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Dream Cars</h1>
+    <p>Your Destination for Luxury & Sports Cars</p>
+</header>
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Cars</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+<section class="hero">
+    <h1>Drive Your Dream</h1>
+    <p>Explore Premium Cars at the Best Prices</p>
+    <a href="#" class="btn">Explore Cars</a>
+</section>
+<section class="cars">
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800" alt="BMW">
+        <div class="card-content"><h3>BMW M4</h3><p>Powerful performance with luxurious comfort.</p></div>
+    </div>
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800" alt="Audi">
+        <div class="card-content"><h3>Audi R8</h3><p>Experience speed and innovation like never before.</p></div>
+    </div>
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800" alt="Mercedes">
+        <div class="card-content"><h3>Mercedes AMG</h3><p>Luxury meets outstanding engineering.</p></div>
+    </div>
+</section>
+<footer>
+    <p>&copy; 2026 Dream Cars. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
